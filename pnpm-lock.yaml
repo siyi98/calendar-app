@@ -7,6 +7,8 @@ specifiers:
   '@types/react-dom': ^18.0.6
   '@vitejs/plugin-react': ^2.0.0
   antd: ^4.21.7
+  moment: ^2.29.4
+  prettier: ^2.7.1
   react: ^18.2.0
   react-dom: ^18.2.0
   typescript: ^4.7.4
@@ -16,6 +18,7 @@ specifiers:
 dependencies:
   '@tauri-apps/api': 1.0.2
   antd: 4.21.7_biqbaboplfbrettd7655fr4n2y
+  moment: 2.29.4
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
   zustand: 4.0.0-rc.3_react@18.2.0
@@ -25,6 +28,7 @@ devDependencies:
   '@types/react': 18.0.15
   '@types/react-dom': 18.0.6
   '@vitejs/plugin-react': 2.0.0_vite@3.0.2
+  prettier: 2.7.1
   typescript: 4.7.4
   vite: 3.0.2
 
@@ -1012,6 +1016,12 @@ packages:
       nanoid: 3.3.4
       picocolors: 1.0.0
       source-map-js: 1.0.2
+    dev: true
+
+  /prettier/2.7.1:
+    resolution: {integrity: sha512-ujppO+MkdPqoVINuDFDRLClm7D78qbDt0/NR+wp5FqEZOoTNAjPHWj17QRhu7geIHJfcNhRk1XVQmF8Bp3ye+g==}
+    engines: {node: '>=10.13.0'}
+    hasBin: true
     dev: true
 
   /rc-align/4.0.12_biqbaboplfbrettd7655fr4n2y:
